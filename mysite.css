@@ -9,5 +9,21 @@ header {
   width: 100%; /* 横幅100% */
   padding: 70px 0;
   margin: 0 auto;
-  color: #EC715F
+  background-color: #EC715F;
+  background-image: url(img6/logo.png);
+  background-size: auto 100%; /* 横幅1024pxに合わせて縦横比を維持 */
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.nav-list {
+  text-align: right; /* テキストを右寄せにする */
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
